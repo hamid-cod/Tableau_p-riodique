@@ -49,44 +49,6 @@ table td div.name{
 table td div.name span {
 	color: white;
 }
-table td.periodes-groups {
-	height: 10px;
-	width: 10px;
-	border: none;
-}
-table td.groups {
-	width: calc(calc(100%-10px) / 18);
-	font-weight: 800;
-	padding: 0;
-}
-table td.periode {
-	height: 60px;
-	font-weight: 800;
-	border: none;
-}
-table td.element{
-	margin: 0;
-	padding: 0;
-}
 table td.vide{
 	border: none;
-}
-table td div.number{
-	/* text-align: left; */
-	/* margin-left: 2px; */
-	border: 1px solid black;
-	border-radius: 50%;
-	font-size: 12px;
-	width: 50%;
-	height: 100%
-}
-table td div.symbol{
-	font-size: 18px;
-	font-weight: 600;
-	color: black;
-}
-table td div.name{
-	font-size: 10px;
-	/* font-weight: 600; */
-	color: black;
 }

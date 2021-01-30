@@ -1,44 +1,5 @@
 
 $(document).ready(function(){
-	function getJson(){
-		$.getJSON("data/tp.json", function (data) {
-			var ele  = data['elements'];
-			var rows = data['rows'];
-			var cols = data['cols'];
-			var x = '<table>';
-			x += '<tr>';
-			x += '<td class="periodes-groups"></td>';
-			for (var i = 1; i <= cols; i++) {
-				x += '<td class="group'+i+' groups">'+i+'</td>';
-			}
-			x += '</tr>';
-			for (var r = 1; r <= rows; r++) {
-				x += '<tr class="line'+ r +'">';
-				if (r <= 8) { x += '<td class="periode">'+r+'</td>';}
-				else {x += '<td class="periode"></td>';}
-				for (var c = 1; c <= cols; c++) {
-					if (r==1  && c==2) { c = 18; x += '<td class="vide" colspan="16"></td>';}
-					if (r==2  && c==3) { c = 13; x += '<td class="vide" colspan="10"></td>';}
-					if (r==3  && c==3) { c = 13; x += '<td class="vide" colspan="10"></td>';}
-					if (r==6  && c==3) { c =  4; x += '<td class="Lanthanide">57-71</td>';}
-					if (r==7  && c==3) { c =  4; x += '<td class="Actinide">89-103</td>';}
-					if (r==9  && c==3) { c =  4; x += '<td class="vide"></td><td class="Lanthanide periode6" colspan="2">Lanthanide</td>';}
-					if (r==10 && c==3) { c =  4; x += '<td class="vide"></td><td class="Actinide periode7" colspan="2">Actinide</td>';}
-					var res = ele.filter(e => e.ypos == r && e.xpos == c);
-					if (res && res.length > 0) {
-						x += '<td class="element periode'+r+' groups'+c+'">';
-						x += '<div class="number">'+res[0].number+'</div>';
-						x += '<div class="symbol">'+res[0].symbol+'</div>';
-						x += '<div class="name">'+res[0].name+'</div>';
-						x += '</td>';
-					}
-				}
-				x += '</tr>';
-			}
-			x += '</table>';
-			$('#show').append(x);
-		});
-	}
 	function htpRequest(file, selector) {
 		var url = file;
 		var xmlhttp = new XMLHttpRequest();
