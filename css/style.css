@@ -3,28 +3,52 @@ body {
 	padding: 0;
 	margin: 0;
 }
+#show {
+	width: 95%;
+	margin: auto;
+}
 table {
 	width: 100%;
 	border-collapse: separate;
 }
+table th {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	border-radius: 5px;
+	border: 1px solid black;
+}
 table td {
-	width: calc(100% / 18);
 	height: 50px;
 	padding: 0;
 	margin: 0;
 	border-radius: 5px;
 	border: 1px solid black;
 }
+
+table td:not(.vide):hover {
+	/*background: yellow;*/
+	cursor: pointer;
+}
+table td.element:hover {
+	background-color: rgba(2,5,250,0.5);
+	color: white;
+}
 table td.group{
 	height: 10px;
 	text-align: center;
 }
 table td.period{
-	width: 10px;
+	width: 30px;
 	text-align: center;
 }
-table td span {
-	display: inline-block;
+table td.Lanthanide {
+	text-align: center;
+	font-weight: 700;
+}
+table td.Actinide {
+	text-align: center;
+	font-weight: 700;
 }
 table td div.z{
 	position: relative;
@@ -32,10 +56,19 @@ table td div.z{
 	left: 0px;
 	font-size: 10px;
 	color: white;
-	background-color: black;
+	background-color: #7f8fa6;
+	border-bottom: 1px solid black;
+}
+table td div.z span:nth-child(1) {
+	/*border: 1px solid black;*/
+	color: black;
+	border-radius: 50%;
+	font-weight: bold;
+	padding-left: 2px;
 }
 table td div.z span:nth-child(2) {
 	float: right;
+	padding-right: 2px;
 }
 table td div.symbol{
 	font-weight: 500;
@@ -44,11 +77,18 @@ table td div.symbol{
 table td div.name{
 	text-align: center;
 	font-size: 12px;
-	background-color: black;
+	background-color: rgba(0,0,0,0.7);
 }
 table td div.name span {
-	color: white;
+	/*color: white;*/
+	color: #fbc531;
 }
-table td.vide{
+.vide{
 	border: none;
+}
+.table-striped td{
+	border: none;
+}
+.swal2-confirm a{
+	color: #FFF;
 }

@@ -1,7 +1,8 @@
 {
     "elements": [
         {
-            "name": "Hydrogen", 
+            "name": "Hydrogen",
+            "nom": "Hydrogène",
             "appearance": "colorless gas", 
             "atomic_mass": 1.008, 
             "boil": 20.271, 
@@ -24,12 +25,14 @@
             "shells": [1], 
             "electron_configuration": "1s<sup>1</sup>", 
             "electron_configuration_semantic": "1s<sup>1</sup>", 
+            "CE": "1s<sup>1</sup>",
             "electron_affinity": 72.769, 
             "electronegativity_pauling": 2.2, 
             "ionization_energies": [1312]
         }, 
         {
             "name": "Helium", 
+            "nom": "Hélium",
             "appearance": "colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field", 
             "atomic_mass": 4.0026022, 
             "boil": 4.222, 
@@ -52,12 +55,14 @@
             "shells": [2], 
             "electron_configuration": "1s<sup>2</sup>", 
             "electron_configuration_semantic": "1s<sup>2</sup>", 
+            "CE":"1s<sup>2</sup>",
             "electron_affinity": -48, 
             "electronegativity_pauling": null, 
             "ionization_energies": [2372.3, 5250.5]
         }, 
         {
-            "name": "Lithium", 
+            "name": "Lithium",
+            "nom": "Lithium", 
             "appearance": "silvery-white", 
             "atomic_mass": 6.94, 
             "boil": 1603, 
@@ -86,6 +91,7 @@
         }, 
         {
             "name": "Beryllium", 
+            "nom": "Béryllium",
             "appearance": "white-gray metallic", 
             "atomic_mass": 9.01218315, 
             "boil": 2742, 
@@ -114,6 +120,7 @@
         }, 
         {
             "name": "Boron", 
+            "nom": "Bore",
             "appearance": "black-brown", 
             "atomic_mass": 10.81, 
             "boil": 4200, 
@@ -142,6 +149,7 @@
         }, 
         {
             "name": "Carbon", 
+            "nom": "Carbone",
             "appearance": null, 
             "atomic_mass": 12.011, 
             "boil": null, 
@@ -180,6 +188,7 @@
         }, 
         {
             "name": "Nitrogen", 
+            "nom": "Azote", 
             "appearance": "colorless gas, liquid or solid", 
             "atomic_mass": 14.007, 
             "boil": 77.355, 
@@ -219,6 +228,7 @@
         }, 
         {
             "name": "Oxygen", 
+            "nom": "Oxygène",
             "appearance": null, 
             "atomic_mass": 15.999, 
             "boil": 90.188, 
@@ -258,7 +268,8 @@
             ]
         }, 
         {
-            "name": "Fluorine", 
+            "name": "Fluorine",
+            "nom": "Fluor", 
             "appearance": null, 
             "atomic_mass": 18.9984031636, 
             "boil": 85.03, 
@@ -300,6 +311,7 @@
         }, 
         {
             "name": "Neon", 
+            "nom": "Néon", 
             "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field", 
             "atomic_mass": 20.17976, 
             "boil": 27.104, 
@@ -341,7 +353,8 @@
             ]
         }, 
         {
-            "name": "Sodium", 
+            "name": "Sodium",
+            "nom": "Sodium",
             "appearance": "silvery white metallic", 
             "atomic_mass": 22.989769282, 
             "boil": 1156.09, 
@@ -386,6 +399,7 @@
         }, 
         {
             "name": "Magnesium", 
+            "nom": "Magnésium", 
             "appearance": "shiny grey solid", 
             "atomic_mass": 24.305, 
             "boil": 1363, 
@@ -430,7 +444,8 @@
             ]
         }, 
         {
-            "name": "Aluminium", 
+            "name": "Aluminium",
+            "nom":"Aluminium",
             "appearance": "silvery gray metallic", 
             "atomic_mass": 26.98153857, 
             "boil": 2743, 
@@ -477,6 +492,7 @@
         }, 
         {
             "name": "Silicon", 
+            "nom":"Silicium",
             "appearance": "crystalline, reflective with bluish-tinged faces", 
             "atomic_mass": 28.085, 
             "boil": 3538, 
@@ -524,6 +540,7 @@
         }, 
         {
             "name": "Phosphorus", 
+            "nom":"Phosphore",
             "appearance": "colourless, waxy white, yellow, scarlet, red, violet, black", 
             "atomic_mass": 30.9737619985, 
             "boil": null, 
@@ -572,6 +589,7 @@
         }, 
         {
             "name": "Sulfur", 
+            "nom":"Soufre",
             "appearance": "lemon yellow sintered microcrystals", 
             "atomic_mass": 32.06, 
             "boil": 717.8, 
@@ -621,6 +639,7 @@
         }, 
         {
             "name": "Chlorine", 
+            "nom":"Chlore",
             "appearance": "pale yellow-green gas", 
             "atomic_mass": 35.45, 
             "boil": 239.11, 
@@ -671,6 +690,7 @@
         }, 
         {
             "name": "Argon", 
+            "nom":"Argon",
             "appearance": "colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field", 
             "atomic_mass": 39.9481, 
             "boil": 87.302, 
@@ -722,6 +742,7 @@
         }, 
         {
             "name": "Potassium", 
+            "nom":"Potassium",
             "appearance": "silvery gray", 
             "atomic_mass": 39.09831, 
             "boil": 1032, 
@@ -775,6 +796,7 @@
         }, 
         {
             "name": "Calcium", 
+            "nom":"Calcium",
             "appearance": null, 
             "atomic_mass": 40.0784, 
             "boil": 1757, 
@@ -829,6 +851,7 @@
         }, 
         {
             "name": "Scandium", 
+            "nom":"Scandium",
             "appearance": "silvery white", 
             "atomic_mass": 44.9559085, 
             "boil": 3109, 
@@ -884,6 +907,7 @@
         }, 
         {
             "name": "Titanium", 
+            "nom":"Titane",
             "appearance": "silvery grey-white metallic", 
             "atomic_mass": 47.8671, 
             "boil": 3560, 
@@ -940,6 +964,7 @@
         }, 
         {
             "name": "Vanadium", 
+            "nom":"Vanadium",
             "appearance": "blue-silver-grey metal", 
             "atomic_mass": 50.94151, 
             "boil": 3680, 
@@ -997,6 +1022,7 @@
         }, 
         {
             "name": "Chromium", 
+            "nom":"Chrome",
             "appearance": "silvery metallic", 
             "atomic_mass": 51.99616, 
             "boil": 2944, 
@@ -1055,6 +1081,7 @@
         }, 
         {
             "name": "Manganese", 
+            "nom":"Manganèse",
             "appearance": "silvery metallic", 
             "atomic_mass": 54.9380443, 
             "boil": 2334, 
@@ -1114,6 +1141,7 @@
         }, 
         {
             "name": "Iron", 
+            "nom":"Fer",
             "appearance": "lustrous metallic with a grayish tinge", 
             "atomic_mass": 55.8452, 
             "boil": 3134, 
@@ -1174,6 +1202,7 @@
         }, 
         {
             "name": "Cobalt", 
+            "nom":"Cobalt",
             "appearance": "hard lustrous gray metal", 
             "atomic_mass": 58.9331944, 
             "boil": 3200, 
@@ -1235,6 +1264,7 @@
         }, 
         {
             "name": "Nickel", 
+            "nom":"Nickel",
             "appearance": "lustrous, metallic, and silver with a gold tinge", 
             "atomic_mass": 58.69344, 
             "boil": 3003, 
@@ -1297,6 +1327,7 @@
         }, 
         {
             "name": "Copper", 
+            "nom":"Cuivre",
             "appearance": "red-orange metallic luster", 
             "atomic_mass": 63.5463, 
             "boil": 2835, 
@@ -1360,6 +1391,7 @@
         }, 
         {
             "name": "Zinc", 
+            "nom":"Zinc",
             "appearance": "silver-gray", 
             "atomic_mass": 65.382, 
             "boil": 1180, 
@@ -1415,6 +1447,7 @@
         }, 
         {
             "name": "Gallium", 
+            "nom":"Gallium",
             "appearance": "silver-white", 
             "atomic_mass": 69.7231, 
             "boil": 2673, 
@@ -1453,6 +1486,7 @@
         }, 
         {
             "name": "Germanium", 
+            "nom":"Germanium",
             "appearance": "grayish-white", 
             "atomic_mass": 72.6308, 
             "boil": 3106, 
@@ -1492,6 +1526,7 @@
         }, 
         {
             "name": "Arsenic", 
+            "nom":"Arsenic",
             "appearance": "metallic grey", 
             "atomic_mass": 74.9215956, 
             "boil": null, 
@@ -1532,6 +1567,7 @@
         }, 
         {
             "name": "Selenium", 
+            "nom":"Sélénium",
             "appearance": "black, red, and gray (not pictured) allotropes", 
             "atomic_mass": 78.9718, 
             "boil": 958, 
@@ -1573,6 +1609,7 @@
         }, 
         {
             "name": "Bromine", 
+            "nom":"Brome",
             "appearance": null, 
             "atomic_mass": 79.904, 
             "boil": 332, 
@@ -1615,6 +1652,7 @@
         }, 
         {
             "name": "Krypton", 
+            "nom":"Krypton",
             "appearance": "colorless gas, exhibiting a whitish glow in a high electric field", 
             "atomic_mass": 83.7982, 
             "boil": 119.93, 
@@ -1679,6 +1717,7 @@
         }, 
         {
             "name": "Rubidium", 
+            "nom":"Rubidium",
             "appearance": "grey white", 
             "atomic_mass": 85.46783, 
             "boil": 961, 
@@ -1724,6 +1763,7 @@
         }, 
         {
             "name": "Strontium", 
+            "nom":"Strontium",
             "appearance": null, 
             "atomic_mass": 87.621, 
             "boil": 1650, 
@@ -1770,6 +1810,7 @@
         }, 
         {
             "name": "Yttrium", 
+            "nom":"Yttrium",
             "appearance": "silvery white", 
             "atomic_mass": 88.905842, 
             "boil": 3203, 
@@ -1817,6 +1858,7 @@
         }, 
         {
             "name": "Zirconium", 
+            "nom":"Zirconium",
             "appearance": "silvery white", 
             "atomic_mass": 91.2242, 
             "boil": 4650, 
@@ -1858,6 +1900,7 @@
         }, 
         {
             "name": "Niobium", 
+            "nom":"Niobium",
             "appearance": "gray metallic, bluish when oxidized", 
             "atomic_mass": 92.906372, 
             "boil": 5017, 
@@ -1900,6 +1943,7 @@
         }, 
         {
             "name": "Molybdenum", 
+            "nom":"Molybdène",
             "appearance": "gray metallic", 
             "atomic_mass": 95.951, 
             "boil": 4912, 
@@ -1965,6 +2009,7 @@
         }, 
         {
             "name": "Technetium", 
+            "nom":"Technétium",
             "appearance": "shiny gray metal", 
             "atomic_mass": 98, 
             "boil": 4538, 
@@ -2003,6 +2048,7 @@
         }, 
         {
             "name": "Ruthenium", 
+            "nom":"Ruthénium",
             "appearance": "silvery white metallic", 
             "atomic_mass": 101.072, 
             "boil": 4423, 
@@ -2041,6 +2087,7 @@
         }, 
         {
             "name": "Rhodium", 
+            "nom":"Rhodium",
             "appearance": "silvery white metallic", 
             "atomic_mass": 102.905502, 
             "boil": 3968, 
@@ -2079,6 +2126,7 @@
         }, 
         {
             "name": "Palladium", 
+            "nom":"Palladium",
             "appearance": "silvery white", 
             "atomic_mass": 106.421, 
             "boil": 3236, 
@@ -2116,6 +2164,7 @@
         }, 
         {
             "name": "Silver", 
+            "nom":"Argent",
             "appearance": "lustrous white metal", 
             "atomic_mass": 107.86822, 
             "boil": 2435, 
@@ -2154,6 +2203,7 @@
         }, 
         {
             "name": "Cadmium", 
+            "nom":"Cadmium",
             "appearance": "silvery bluish-gray metallic", 
             "atomic_mass": 112.4144, 
             "boil": 1040, 
@@ -2192,6 +2242,7 @@
         }, 
         {
             "name": "Indium", 
+            "nom":"Indium",
             "appearance": "silvery lustrous gray", 
             "atomic_mass": 114.8181, 
             "boil": 2345, 
@@ -2231,6 +2282,7 @@
         }, 
         {
             "name": "Tin", 
+            "nom":"Étain",
             "appearance": "silvery-white (beta, \u03b2) or gray (alpha, \u03b1)", 
             "atomic_mass": 118.7107, 
             "boil": 2875, 
@@ -2271,6 +2323,7 @@
         }, 
         {
             "name": "Antimony", 
+            "nom":"Antimoine",
             "appearance": "silvery lustrous gray", 
             "atomic_mass": 121.7601, 
             "boil": 1908, 
@@ -2312,6 +2365,7 @@
         }, 
         {
             "name": "Tellurium", 
+            "nom":"Tellure",
             "appearance": null, 
             "atomic_mass": 127.603, 
             "boil": 1261, 
@@ -2354,6 +2408,7 @@
         }, 
         {
             "name": "Iodine", 
+            "nom":"Iode",
             "appearance": "lustrous metallic gray, violet as a gas", 
             "atomic_mass": 126.904473, 
             "boil": 457.4, 
@@ -2392,6 +2447,7 @@
         }, 
         {
             "name": "Xenon", 
+            "nom":"Xénon",
             "appearance": "colorless gas, exhibiting a blue glow when placed in a high voltage electric field", 
             "atomic_mass": 131.2936, 
             "boil": 165.051, 
@@ -2430,6 +2486,7 @@
         }, 
         {
             "name": "Cesium", 
+            "nom":"Césium",
             "appearance": "silvery gold", 
             "atomic_mass": 132.905451966, 
             "boil": 944, 
@@ -2469,6 +2526,7 @@
         }, 
         {
             "name": "Barium", 
+            "nom":"Baryum",
             "appearance": null, 
             "atomic_mass": 137.3277, 
             "boil": 2118, 
@@ -2508,10 +2566,11 @@
         }, 
         {
             "name": "Lanthanum", 
+            "nom":"Lanthane",
             "appearance": "silvery white", 
             "atomic_mass": 138.905477, 
             "boil": 3737, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 6.162, 
             "discovered_by": "Carl Gustaf Mosander", 
@@ -2549,10 +2608,11 @@
         }, 
         {
             "name": "Cerium", 
+            "nom":"Cérium",
             "appearance": "silvery white", 
             "atomic_mass": 140.1161, 
             "boil": 3716, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 6.77, 
             "discovered_by": "Martin Heinrich Klaproth", 
@@ -2591,10 +2651,11 @@
         }, 
         {
             "name": "Praseodymium", 
+            "nom":"Praséodyme",
             "appearance": "grayish white", 
             "atomic_mass": 140.907662, 
             "boil": 3403, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 6.77, 
             "discovered_by": "Carl Auer von Welsbach", 
@@ -2632,10 +2693,11 @@
         }, 
         {
             "name": "Neodymium", 
+            "nom":"Néodyme",
             "appearance": "silvery white", 
             "atomic_mass": 144.2423, 
             "boil": 3347, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 7.01, 
             "discovered_by": "Carl Auer von Welsbach", 
@@ -2672,10 +2734,11 @@
         }, 
         {
             "name": "Promethium", 
+            "nom":"Prométhium",
             "appearance": "metallic", 
             "atomic_mass": 145, 
             "boil": 3273, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 7.26, 
             "discovered_by": "Chien Shiung Wu", 
@@ -2712,10 +2775,11 @@
         }, 
         {
             "name": "Samarium", 
+            "nom":"Samarium",
             "appearance": "silvery white", 
             "atomic_mass": 150.362, 
             "boil": 2173, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 7.52, 
             "discovered_by": "Lecoq de Boisbaudran", 
@@ -2752,10 +2816,11 @@
         }, 
         {
             "name": "Europium", 
+            "nom":"Europium",
             "appearance": null, 
             "atomic_mass": 151.9641, 
             "boil": 1802, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 5.264, 
             "discovered_by": "Eug\u00e8ne-Anatole Demar\u00e7ay", 
@@ -2792,10 +2857,11 @@
         }, 
         {
             "name": "Gadolinium", 
+            "nom":"Gadolinium",
             "appearance": "silvery white", 
             "atomic_mass": 157.253, 
             "boil": 3273, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 7.9, 
             "discovered_by": "Jean Charles Galissard de Marignac", 
@@ -2832,10 +2898,11 @@
         }, 
         {
             "name": "Terbium", 
+            "nom":"Terbium",
             "appearance": "silvery white", 
             "atomic_mass": 158.925352, 
             "boil": 3396, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 8.23, 
             "discovered_by": "Carl Gustaf Mosander", 
@@ -2872,10 +2939,11 @@
         }, 
         {
             "name": "Dysprosium", 
+            "nom":"Dysprosium",
             "appearance": "silvery white", 
             "atomic_mass": 162.5001, 
             "boil": 2840, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 8.54, 
             "discovered_by": "Lecoq de Boisbaudran", 
@@ -2912,10 +2980,11 @@
         }, 
         {
             "name": "Holmium", 
+            "nom":"Holmium",
             "appearance": "silvery white", 
             "atomic_mass": 164.930332, 
             "boil": 2873, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 8.79, 
             "discovered_by": "Marc Delafontaine", 
@@ -2952,10 +3021,11 @@
         }, 
         {
             "name": "Erbium", 
+            "nom":"Erbium",
             "appearance": "silvery white", 
             "atomic_mass": 167.2593, 
             "boil": 3141, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 9.066, 
             "discovered_by": "Carl Gustaf Mosander", 
@@ -2992,10 +3062,11 @@
         }, 
         {
             "name": "Thulium", 
+            "nom":"Thulium",
             "appearance": "silvery gray", 
             "atomic_mass": 168.934222, 
             "boil": 2223, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 9.32, 
             "discovered_by": "Per Teodor Cleve", 
@@ -3032,10 +3103,11 @@
         }, 
         {
             "name": "Ytterbium", 
+            "nom":"Ytterbium",
             "appearance": null, 
             "atomic_mass": 173.0451, 
             "boil": 1469, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 6.9, 
             "discovered_by": "Jean Charles Galissard de Marignac", 
@@ -3072,10 +3144,11 @@
         }, 
         {
             "name": "Lutetium", 
+            "nom":"Lutécium",
             "appearance": "silvery white", 
             "atomic_mass": 174.96681, 
             "boil": 3675, 
-            "category": "lanthanide", 
+            "category": "Lanthanide", 
             "color": null, 
             "density": 9.841, 
             "discovered_by": "Georges Urbain", 
@@ -3113,6 +3186,7 @@
         }, 
         {
             "name": "Hafnium", 
+            "nom":"Hafnium",
             "appearance": "steel gray", 
             "atomic_mass": 178.492, 
             "boil": 4876, 
@@ -3153,6 +3227,7 @@
         }, 
         {
             "name": "Tantalum", 
+            "nom":"Tantale",
             "appearance": "gray blue", 
             "atomic_mass": 180.947882, 
             "boil": 5731, 
@@ -3191,6 +3266,7 @@
         }, 
         {
             "name": "Tungsten", 
+            "nom":"Tungstène",
             "appearance": "grayish white, lustrous", 
             "atomic_mass": 183.841, 
             "boil": 6203, 
@@ -3229,6 +3305,7 @@
         }, 
         {
             "name": "Rhenium", 
+            "nom":"Rhénium",
             "appearance": "silvery-grayish", 
             "atomic_mass": 186.2071, 
             "boil": 5869, 
@@ -3269,6 +3346,7 @@
         }, 
         {
             "name": "Osmium", 
+            "nom":"Osmium",
             "appearance": "silvery, blue cast", 
             "atomic_mass": 190.233, 
             "boil": 5285, 
@@ -3307,6 +3385,7 @@
         }, 
         {
             "name": "Iridium", 
+            "nom":"Iridium",
             "appearance": "silvery white", 
             "atomic_mass": 192.2173, 
             "boil": 4403, 
@@ -3345,6 +3424,7 @@
         }, 
         {
             "name": "Platinum", 
+            "nom":"Platine",
             "appearance": "silvery white", 
             "atomic_mass": 195.0849, 
             "boil": 4098, 
@@ -3383,6 +3463,7 @@
         }, 
         {
             "name": "Gold", 
+            "nom":"Or",
             "appearance": "metallic yellow", 
             "atomic_mass": 196.9665695, 
             "boil": 3243, 
@@ -3421,6 +3502,7 @@
         }, 
         {
             "name": "Mercury", 
+            "nom":"Mercure",
             "appearance": "silvery", 
             "atomic_mass": 200.5923, 
             "boil": 629.88, 
@@ -3460,6 +3542,7 @@
         }, 
         {
             "name": "Thallium", 
+            "nom":"Thallium",
             "appearance": "silvery white", 
             "atomic_mass": 204.38, 
             "boil": 1746, 
@@ -3499,6 +3582,7 @@
         }, 
         {
             "name": "Lead", 
+            "nom":"Plomb",
             "appearance": "metallic gray", 
             "atomic_mass": 207.21, 
             "boil": 2022, 
@@ -3540,6 +3624,7 @@
         }, 
         {
             "name": "Bismuth", 
+            "nom":"Bismuth",
             "appearance": "lustrous silver", 
             "atomic_mass": 208.980401, 
             "boil": 1837, 
@@ -3582,6 +3667,7 @@
         }, 
         {
             "name": "Polonium", 
+            "nom":"Polonium",
             "appearance": "silvery", 
             "atomic_mass": 209, 
             "boil": 1235, 
@@ -3619,6 +3705,7 @@
         }, 
         {
             "name": "Astatine", 
+            "nom":"Astate",
             "appearance": "unknown, probably metallic", 
             "atomic_mass": 210, 
             "boil": 610, 
@@ -3656,6 +3743,7 @@
         }, 
         {
             "name": "Radon", 
+            "nom":"Radon",
             "appearance": "colorless gas, occasionally glows green or red in discharge tubes", 
             "atomic_mass": 222, 
             "boil": 211.5, 
@@ -3693,6 +3781,7 @@
         }, 
         {
             "name": "Francium", 
+            "nom":"Francium",
             "appearance": null, 
             "atomic_mass": 223, 
             "boil": 950, 
@@ -3731,6 +3820,7 @@
         }, 
         {
             "name": "Radium", 
+            "nom":"Radium",
             "appearance": "silvery white metallic", 
             "atomic_mass": 226, 
             "boil": 2010, 
@@ -3770,10 +3860,11 @@
         }, 
         {
             "name": "Actinium", 
+            "nom":"Actinium",
             "appearance": null, 
             "atomic_mass": 227, 
             "boil": 3500, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 10, 
             "discovered_by": "Friedrich Oskar Giesel", 
@@ -3809,10 +3900,11 @@
         }, 
         {
             "name": "Thorium", 
+            "nom":"Thorium",
             "appearance": "silvery, often with black tarnish", 
             "atomic_mass": 232.03774, 
             "boil": 5061, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 11.724, 
             "discovered_by": "J\u00f6ns Jakob Berzelius", 
@@ -3850,10 +3942,11 @@
         }, 
         {
             "name": "Protactinium", 
+            "nom":"Protactinium",
             "appearance": "bright, silvery metallic luster", 
             "atomic_mass": 231.035882, 
             "boil": 4300, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 15.37, 
             "discovered_by": "William Crookes", 
@@ -3888,10 +3981,11 @@
         }, 
         {
             "name": "Uranium", 
+            "nom":"Uranium",
             "appearance": null, 
             "atomic_mass": 238.028913, 
             "boil": 4404, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 19.1, 
             "discovered_by": "Martin Heinrich Klaproth", 
@@ -3927,10 +4021,11 @@
         }, 
         {
             "name": "Neptunium", 
+            "nom":"Neptunium",
             "appearance": "silvery metallic", 
             "atomic_mass": 237, 
             "boil": 4447, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 20.45, 
             "discovered_by": "Edwin McMillan", 
@@ -3965,10 +4060,11 @@
         }, 
         {
             "name": "Plutonium", 
+            "nom":"Plutonium",
             "appearance": "silvery white, tarnishing to dark gray in air", 
             "atomic_mass": 244, 
             "boil": 3505, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 19.816, 
             "discovered_by": "Glenn T. Seaborg", 
@@ -4003,10 +4099,11 @@
         }, 
         {
             "name": "Americium", 
+            "nom":" Américium",
             "appearance": "silvery white", 
             "atomic_mass": 243, 
             "boil": 2880, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 12, 
             "discovered_by": "Glenn T. Seaborg", 
@@ -4041,10 +4138,11 @@
         }, 
         {
             "name": "Curium", 
+            "nom":"Curium",
             "appearance": "silvery metallic, glows purple in the dark", 
             "atomic_mass": 247, 
             "boil": 3383, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 13.51, 
             "discovered_by": "Glenn T. Seaborg", 
@@ -4079,10 +4177,11 @@
         }, 
         {
             "name": "Berkelium", 
+            "nom":"Berkélium",
             "appearance": "silvery", 
             "atomic_mass": 247, 
             "boil": 2900, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 14.78, 
             "discovered_by": "Lawrence Berkeley National Laboratory", 
@@ -4117,10 +4216,11 @@
         }, 
         {
             "name": "Californium", 
+            "nom":"Californium",
             "appearance": "silvery", 
             "atomic_mass": 251, 
             "boil": 1743, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 15.1, 
             "discovered_by": "Lawrence Berkeley National Laboratory", 
@@ -4155,10 +4255,11 @@
         }, 
         {
             "name": "Einsteinium", 
+            "nom":"Einsteinium",
             "appearance": "silver-colored", 
             "atomic_mass": 252, 
             "boil": 1269, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": 8.84, 
             "discovered_by": "Lawrence Berkeley National Laboratory", 
@@ -4193,10 +4294,11 @@
         }, 
         {
             "name": "Fermium", 
+            "nom":"Fermium",
             "appearance": null, 
             "atomic_mass": 257, 
             "boil": null, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": null, 
             "discovered_by": "Lawrence Berkeley National Laboratory", 
@@ -4231,10 +4333,11 @@
         }, 
         {
             "name": "Mendelevium", 
+            "nom":"Mendélévium",
             "appearance": null, 
             "atomic_mass": 258, 
             "boil": null, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": null, 
             "discovered_by": "Lawrence Berkeley National Laboratory", 
@@ -4269,10 +4372,11 @@
         }, 
         {
             "name": "Nobelium", 
+            "nom":"Nobélium",
             "appearance": null, 
             "atomic_mass": 259, 
             "boil": null, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": null, 
             "discovered_by": "Joint Institute for Nuclear Research", 
@@ -4307,10 +4411,11 @@
         }, 
         {
             "name": "Lawrencium", 
+            "nom":"Lawrencium",
             "appearance": null, 
             "atomic_mass": 266, 
             "boil": null, 
-            "category": "actinide", 
+            "category": "Actinide", 
             "color": null, 
             "density": null, 
             "discovered_by": "Lawrence Berkeley National Laboratory", 
@@ -4345,6 +4450,7 @@
         }, 
         {
             "name": "Rutherfordium", 
+            "nom":"Rutherfordium",
             "appearance": null, 
             "atomic_mass": 267, 
             "boil": 5800, 
@@ -4383,6 +4489,7 @@
         }, 
         {
             "name": "Dubnium", 
+            "nom":"Dubnium",
             "appearance": null, 
             "atomic_mass": 268, 
             "boil": null, 
@@ -4419,6 +4526,7 @@
         }, 
         {
             "name": "Seaborgium", 
+            "nom":"Seaborgium",
             "appearance": null, 
             "atomic_mass": 269, 
             "boil": null, 
@@ -4455,6 +4563,7 @@
         }, 
         {
             "name": "Bohrium", 
+            "nom":"Bohrium",
             "appearance": null, 
             "atomic_mass": 270, 
             "boil": null, 
@@ -4491,6 +4600,7 @@
         }, 
         {
             "name": "Hassium", 
+            "nom":"Hassium",
             "appearance": null, 
             "atomic_mass": 269, 
             "boil": null, 
@@ -4527,6 +4637,7 @@
         }, 
         {
             "name": "Meitnerium", 
+            "nom":"Meitnérium",
             "appearance": null, 
             "atomic_mass": 278, 
             "boil": null, 
@@ -4563,6 +4674,7 @@
         }, 
         {
             "name": "Darmstadtium", 
+            "nom":"Darmstadtium",
             "appearance": null, 
             "atomic_mass": 281, 
             "boil": null, 
@@ -4599,6 +4711,7 @@
         }, 
         {
             "name": "Roentgenium", 
+            "nom":"Roentgenium",
             "appearance": null, 
             "atomic_mass": 282, 
             "boil": null, 
@@ -4635,6 +4748,7 @@
         }, 
         {
             "name": "Copernicium", 
+            "nom":"Copernicium",
             "appearance": null, 
             "atomic_mass": 285, 
             "boil": 3570, 
@@ -4671,6 +4785,7 @@
         }, 
         {
             "name": "Nihonium", 
+            "nom":"Nihonium",
             "appearance": null, 
             "atomic_mass": 286, 
             "boil": 1430, 
@@ -4707,6 +4822,7 @@
         }, 
         {
             "name": "Flerovium", 
+            "nom":"Flérovium",
             "appearance": null, 
             "atomic_mass": 289, 
             "boil": 420, 
@@ -4743,6 +4859,7 @@
         }, 
         {
             "name": "Moscovium", 
+            "nom":"Moscovium",
             "appearance": null, 
             "atomic_mass": 289, 
             "boil": 1400, 
@@ -4779,6 +4896,7 @@
         }, 
         {
             "name": "Livermorium", 
+            "nom":"Livermorium",
             "appearance": null, 
             "atomic_mass": 293, 
             "boil": 1085, 
@@ -4815,6 +4933,7 @@
         }, 
         {
             "name": "Tennessine", 
+            "nom":"Tennesse",
             "appearance": null, 
             "atomic_mass": 294, 
             "boil": 883, 
@@ -4851,6 +4970,7 @@
         }, 
         {
             "name": "Oganesson", 
+            "nom":"Oganesson",
             "appearance": null, 
             "atomic_mass": 294, 
             "boil": 350, 
